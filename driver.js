@@ -9,8 +9,7 @@ function makeDocument(coverName) {
 
 let agency = new SpyAgency();
 
-let coverNames = ["Ahmed Salah", "Mona Hassan", "Omar Khaled", "Hassan Ali", "Sara Mohamed", "Kareem Youssef", "Dalia Samir", "Hussein Tarek", "Nour Amr", "Fatma Adel"];
-let documents = coverNames.map(makeDocument);
+let coverNames = ["Adam Smith", "Emma Johnson", "Oliver Brown", "Liam Wilson", "Sophia Davis", "James Anderson", "Ella Martinez", "Ethan Thomas", "Ava Harris", "Mia Robinson"];let documents = coverNames.map(makeDocument);
 
 let blindDocs = [];
 let blindingFactors = [];
